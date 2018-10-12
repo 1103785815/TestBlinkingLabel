@@ -1,0 +1,6 @@
+framework module TestBlinkingLabel {
+  umbrella header "TestBlinkingLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

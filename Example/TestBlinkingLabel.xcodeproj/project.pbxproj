@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		2F3A5947F41F82C818D5CD19 /* Pods_TestBlinkingLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBlinkingLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4366251E56B99BFB61BAEDD4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4366251E56B99BFB61BAEDD4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		52D6A8926D1CD39E4D79AA10 /* Pods-TestBlinkingLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBlinkingLabel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestBlinkingLabel_Example/Pods-TestBlinkingLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TestBlinkingLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestBlinkingLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,10 +62,10 @@
 		64E34B0B20EB6E22AF9ED0BE /* Pods-TestBlinkingLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBlinkingLabel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestBlinkingLabel_Tests/Pods-TestBlinkingLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		949EFB4A31BB0EB84FA51360 /* TestBlinkingLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TestBlinkingLabel.podspec; path = ../TestBlinkingLabel.podspec; sourceTree = "<group>"; };
+		949EFB4A31BB0EB84FA51360 /* TestBlinkingLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestBlinkingLabel.podspec; path = ../TestBlinkingLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B6F6A54F028DE817F17304C0 /* Pods-TestBlinkingLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBlinkingLabel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestBlinkingLabel_Tests/Pods-TestBlinkingLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B745F1E4AB78FF6A3EB1DA5B /* Pods_TestBlinkingLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBlinkingLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1AC5C426770309DBD71C15C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E1AC5C426770309DBD71C15C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F73A561BE4FF5CCC6B8B19F2 /* Pods-TestBlinkingLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestBlinkingLabel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestBlinkingLabel_Example/Pods-TestBlinkingLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
