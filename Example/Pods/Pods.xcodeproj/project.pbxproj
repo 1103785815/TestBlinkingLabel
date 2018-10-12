@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1887FF122170757F006882D1 /* HomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1887FF102170757F006882D1 /* HomeViewController.h */; };
+		1887FF132170757F006882D1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1887FF112170757F006882D1 /* HomeViewController.m */; };
 		27A27807BBC68CAB250E0004760EB1BE /* TestBlinkingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA66C0A95042EFD81373254887091CD /* TestBlinkingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D30298171AE99C4F429BC9662E91B90 /* Pods-TestBlinkingLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0071F1ADC144F91582E730C7BD0F150 /* Pods-TestBlinkingLabel_Example-dummy.m */; };
 		4D840A7F5C20F1CF3A6A20AD3835C999 /* TestBlinkingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69914EC3AA483EC5074A0104D3AD9623 /* TestBlinkingLabel-dummy.m */; };
 		6917BD2BADF9BA62FFA8689E661CBC80 /* Pods-TestBlinkingLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E88A413EB0EC5E8EE51919C23CEF8AD /* Pods-TestBlinkingLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		854366963F22F046F4ED683AA63E5204 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9A674D3D0CD639B00591D7CAAF5772CE /* Pods-TestBlinkingLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E55CCEFD358E5FC8F32692A2DAB41D81 /* Pods-TestBlinkingLabel_Tests-dummy.m */; };
-		AA41C0B4996B98F8B5B41B251238F26E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D426DC09AB66B415C1A4CEC79A64664 /* ReplaceMe.m */; };
 		C793837BFCBF933F1E46CB6A23C37BCB /* Pods-TestBlinkingLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D9F45D92062D8B6CB9245FFB4F71F5E /* Pods-TestBlinkingLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2D67749190B4E9E29750AA7B95727F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		FBC82217666FBC43D3E57A77C0A0220F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -38,10 +39,12 @@
 
 /* Begin PBXFileReference section */
 		01D7FC4D60447E23C966FAD23D8549C2 /* Pods-TestBlinkingLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestBlinkingLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1887FF102170757F006882D1 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1887FF112170757F006882D1 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		21C2DACC7A7F6B03364DF61614EC01F4 /* Pods-TestBlinkingLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestBlinkingLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2226AD1C9A810C6FD39287971C713E74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27115401AD9C11E6F78A97992F347C9B /* Pods-TestBlinkingLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestBlinkingLabel_Tests.modulemap"; sourceTree = "<group>"; };
-		2FE90CD31CF7336EEEF7ED6D5CA5A287 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2FE90CD31CF7336EEEF7ED6D5CA5A287 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3611677F2962601AC627FF7A665B7198 /* Pods-TestBlinkingLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestBlinkingLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3BE1307B16A5C2AAF6F47A969D31A8A0 /* Pods-TestBlinkingLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestBlinkingLabel_Tests-resources.sh"; sourceTree = "<group>"; };
 		462BE65557AD70D05383CE4407E2EF96 /* Pods-TestBlinkingLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestBlinkingLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -51,27 +54,26 @@
 		554A578F0FE958FFB8E4C301987EC6EB /* TestBlinkingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestBlinkingLabel.xcconfig; sourceTree = "<group>"; };
 		5E72E29982724D5FBC812C23C2DEE52F /* Pods-TestBlinkingLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestBlinkingLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5E88A413EB0EC5E8EE51919C23CEF8AD /* Pods-TestBlinkingLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestBlinkingLabel_Example-umbrella.h"; sourceTree = "<group>"; };
-		61BDBDA6A7D0681CD46451A727084FF8 /* TestBlinkingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestBlinkingLabel.framework; path = TestBlinkingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61BDBDA6A7D0681CD46451A727084FF8 /* TestBlinkingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestBlinkingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		648CF0ECB49C19C3A839AB7FEBE8A226 /* Pods-TestBlinkingLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestBlinkingLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		69914EC3AA483EC5074A0104D3AD9623 /* TestBlinkingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestBlinkingLabel-dummy.m"; sourceTree = "<group>"; };
 		6C885A6E6297F75623EF0D8979A3FE49 /* Pods-TestBlinkingLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestBlinkingLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6D9F45D92062D8B6CB9245FFB4F71F5E /* Pods-TestBlinkingLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestBlinkingLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		79784FC8A590FC9AC44430A74BE0E88B /* Pods_TestBlinkingLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestBlinkingLabel_Tests.framework; path = "Pods-TestBlinkingLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79784FC8A590FC9AC44430A74BE0E88B /* Pods_TestBlinkingLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBlinkingLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A960EA9E5681EE8096D342A8BABAAB6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D426DC09AB66B415C1A4CEC79A64664 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TestBlinkingLabel/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95F1B18BCC4EA98BF0F9C8BBACB6D9F9 /* Pods-TestBlinkingLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestBlinkingLabel_Example-resources.sh"; sourceTree = "<group>"; };
 		A2A246311E4EF74B1DD683E3C0038AA1 /* Pods-TestBlinkingLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestBlinkingLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B332213A8FB1DA065E44F64D9BD1A44E /* TestBlinkingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestBlinkingLabel-prefix.pch"; sourceTree = "<group>"; };
 		B87A26D9D86A2E68F63995028BD01780 /* Pods-TestBlinkingLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestBlinkingLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BBF21F85B5886DE1AB2BAB41AF74454A /* Pods_TestBlinkingLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestBlinkingLabel_Example.framework; path = "Pods-TestBlinkingLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF21F85B5886DE1AB2BAB41AF74454A /* Pods_TestBlinkingLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestBlinkingLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0071F1ADC144F91582E730C7BD0F150 /* Pods-TestBlinkingLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestBlinkingLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		C1F73FF24E751252E78E5B37F49C4124 /* Pods-TestBlinkingLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestBlinkingLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CDA66C0A95042EFD81373254887091CD /* TestBlinkingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestBlinkingLabel-umbrella.h"; sourceTree = "<group>"; };
 		E55CCEFD358E5FC8F32692A2DAB41D81 /* Pods-TestBlinkingLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestBlinkingLabel_Tests-dummy.m"; sourceTree = "<group>"; };
-		F019C041A71726E888A871237BF69144 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FBB5ACB3251D759E785632F53E824F84 /* TestBlinkingLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TestBlinkingLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F019C041A71726E888A871237BF69144 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FBB5ACB3251D759E785632F53E824F84 /* TestBlinkingLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TestBlinkingLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1887FF0F21707566006882D1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1887FF102170757F006882D1 /* HomeViewController.h */,
+				1887FF112170757F006882D1 /* HomeViewController.m */,
+			);
+			name = Home;
+			path = TestBlinkingLabel/Classes/Home;
+			sourceTree = "<group>";
+		};
 		531193BD93FBA2FB870FB0078B266CC0 /* Pods-TestBlinkingLabel_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +205,7 @@
 		C81A6067EF617A7A347C21B428685725 /* TestBlinkingLabel */ = {
 			isa = PBXGroup;
 			children = (
-				8D426DC09AB66B415C1A4CEC79A64664 /* ReplaceMe.m */,
+				1887FF0F21707566006882D1 /* Home */,
 				C46064EA481784959C05E8838364D0BA /* Pod */,
 				B2DA9A34A633AEBAA69649BCA3CCF034 /* Support Files */,
 			);
@@ -234,6 +246,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1887FF122170757F006882D1 /* HomeViewController.h in Headers */,
 				6917BD2BADF9BA62FFA8689E661CBC80 /* Pods-TestBlinkingLabel_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D30298171AE99C4F429BC9662E91B90 /* Pods-TestBlinkingLabel_Example-dummy.m in Sources */,
+				1887FF132170757F006882D1 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +373,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA41C0B4996B98F8B5B41B251238F26E /* ReplaceMe.m in Sources */,
 				4D840A7F5C20F1CF3A6A20AD3835C999 /* TestBlinkingLabel-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
