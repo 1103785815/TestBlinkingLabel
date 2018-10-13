@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
 
 #  s.source_files = 'TestBlinkingLabel/Classes/**/*'
 
-    s.subspec 'common' do |ss|
-        ss.source_files  = ['Classes', 'TestBlinkingLabel/Classes/**/*']
+    s.subspec 'Home' do |ss|
+        ss.source_files  = 'TestBlinkingLabel/Classes/Home/**/*'
     end
 
   # s.resource_bundles = {
