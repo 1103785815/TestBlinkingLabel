@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestBlinkingLabel'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'desc 测试 TestBlinkingLabel.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
 
 #  s.source_files = 'TestBlinkingLabel/Classes/**/*'
 
-    s.subspec 'common' do |ss|
-        ss.source_files  = ['classes', 'classes/**/*.{h,m}']
+    s.subspec 'TestBlinkingLabel' do |ss|
+        ss.source_files  = ['Classes', 'Classes/**/*.{h,m}']
     end
 
   # s.resource_bundles = {
