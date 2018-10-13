@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestBlinkingLabel'
-  s.version          = '0.1.2'
+  s.version          = '0.1.4'
   s.summary          = 'desc 测试 TestBlinkingLabel.'
 
 # This description is used to generate tags and improve search results.
@@ -28,8 +28,12 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TestBlinkingLabel/Classes/**/*'
-  
+#  s.source_files = 'TestBlinkingLabel/Classes/**/*'
+
+    s.subspec 'common' do |ss|
+        ss.source_files  = ['classes', 'classes/**/*.{h,m}']
+    end
+
   # s.resource_bundles = {
   #   'TestBlinkingLabel' => ['TestBlinkingLabel/Assets/*.png']
   # }
